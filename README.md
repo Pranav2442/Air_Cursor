@@ -1,4 +1,5 @@
-## Air_Cursor
+#Air Cursor
+
 
 
 
@@ -13,6 +14,21 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Mediapi
 ```bash
 pip install mediapipe
 ```
+
+# PyAutoGUI
+
+
+
+[PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/) lets your Python scripts control the mouse and keyboard to automate interactions with other applications.
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install PyAutoGUI.
+
+```bash
+pip install PyAutoGUI
+```
+
+
 # Opencv
 
 
@@ -37,3 +53,5 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install NumPy.
 ```bash
 pip install numpy
 ```
+
+
