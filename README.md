@@ -53,5 +53,44 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install NumPy.
 ```bash
 pip install numpy
 ```
+# Pycaw
 
+
+[Pycaw](https://github.com/AndreMiras/pycaw) is the library for audio controls
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Pycaw.
+
+```bash
+pip install pycaw
+```
+
+
+## Code
+
+```
+from ctypes import cast, POINTER
+from comtypes import CLSCTX_ALL
+from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
+devices = AudioUtilities.GetSpeakers()
+interface = devices.Activate(
+    IAudioEndpointVolume._iid_, CLSCTX_ALL, None)
+volume = cast(interface, POINTER(IAudioEndpointVolume))
+volume.GetMute()
+volume.GetMasterVolumeLevel()
+volume.GetVolumeRange()
+volume.SetMasterVolumeLevel(-20.0, None)
+```
+
+
+
+
+# Controls
+
+1) Close Hand:-Mode Selection<br/>
+2) Volume:-Index finger + Thumb<br/>
+3) Scroll:-Index finger +Middle finger + Ring finger<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a) scroll up:-Index finger +Middle finger + Ring finger<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) scroll down:-Index finger +Middle finger + Ring finger + little finger<br/>
 
