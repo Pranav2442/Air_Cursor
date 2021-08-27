@@ -89,8 +89,16 @@ volume.SetMasterVolumeLevel(-20.0, None)
 # Controls
 
 1) Close Hand:-Mode Selection<br/>
-2) Volume:-Index finger + Thumb<br/>
-3) Scroll:-Index finger +Middle finger + Ring finger<br/>
+
+2) Cursor Mode:-Open Hand<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a) Move Cursor:- Thumb (up) + Index Finger (up) + other 3 fingers (down)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Left Click:-  Thumb (down) + Index Finger (up) + other 3 fingers (down)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Right click:- Thumb (up) + Index Finger (down) + Middle finger (down) + Ring finger (down) + little finger (up)
+    
+3) Volume:-Index finger + Thumb<br/>
+
+4) Scroll:-Index finger +Middle finger + Ring finger<br/>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a) scroll up:-Index finger +Middle finger + Ring finger<br/>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) scroll down:-Index finger +Middle finger + Ring finger + little finger<br/>
+ 
 
