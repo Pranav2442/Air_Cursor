@@ -228,6 +228,9 @@ while (cap.isOpened()):
                     # if lengthx<10:
                         cv.circle(frame, (landmarks_list[4][1],landmarks_list[4][2]), 10, (0, 0, 255), cv.FILLED)  # thumb
                         pyautogui.click()
+                if fingers[0]==1 and fingers[1]==0 and fingers[2]==0 and fingers[3]==0 and fingers[4]==1:
+                    pyautogui.click(button='right',interval=1)
+                
 
     if status=='Scroll':
         stat=1
