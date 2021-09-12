@@ -83,6 +83,8 @@ volume.GetVolumeRange()
 volume.SetMasterVolumeLevel(-20.0, None)
 ```
 
+### RESULTS
+<img src="https://imgur.com/I1tt2T7.gif" width="500" height="300">
 
 
 
